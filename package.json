@@ -1,0 +1,31 @@
+{
+  "name": "@agentsys/deslop",
+  "version": "1.3.0",
+  "description": "One cleanup pass over a change: leftovers of renamed or deleted things, docs out of sync with the code, duplicated code, overgrown functions and agent-config errors, each confirmed by a small model",
+  "author": {
+    "name": "Avi Fenesh",
+    "email": "[email protected]",
+    "url": "https://github.com/avifenesh"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agent-sh/deslop.git"
+  },
+  "homepage": "https://github.com/agent-sh/deslop",
+  "keywords": [
+    "code-quality",
+    "cleanup",
+    "refactoring",
+    "maintenance",
+    "slop-detection",
+    "doc-sync",
+    "duplicate-code"
+  ],
+  "scripts": {
+    "test": "jest && node --test tests/authorized-execution.cjs"
+  },
+  "devDependencies": {
+    "jest": "^30.5.2"
+  }
+}
