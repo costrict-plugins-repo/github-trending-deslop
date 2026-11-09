@@ -1,0 +1,22 @@
+{
+  "name": "deslop",
+  "description": "One cleanup pass over a change: leftovers of renamed or deleted things, docs out of sync with the code, duplicated code, overgrown functions and agent-config errors, each confirmed by a small model",
+  "version": "1.3.0",
+  "owner": {
+    "name": "Avi Fenesh",
+    "url": "https://github.com/avifenesh"
+  },
+  "repository": "https://github.com/agent-sh/deslop",
+  "keywords": [
+    "deslop"
+  ],
+  "plugins": [
+    {
+      "name": "deslop",
+      "source": ".",
+      "description": "One cleanup pass over a change: leftovers of renamed or deleted things, docs out of sync with the code, duplicated code, overgrown functions and agent-config errors, each confirmed by a small model",
+      "version": "1.3.0",
+      "category": "development"
+    }
+  ]
+}
